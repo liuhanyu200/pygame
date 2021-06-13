@@ -33,3 +33,8 @@ Python使用加号（ +）来合并字符串
 `print(bicycle[0]) # trek`
 
 append()、pop()、insert()、del、remove()、reverse、sort、sorted() 
+### 第六章 字典
+遍历字典中的值
+`for key, value in favorite_numbers.items():
+    print(name + "favorite number is " + str(number) + '.')`
+
