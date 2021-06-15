@@ -18,5 +18,6 @@ favorite_languages2 = {
 }
 for name, languages in favorite_languages2.items():
     print(name + "favorite language are:")
+    print(languages, type(languages))
     for language in languages:
         print('\t' + language.title())
