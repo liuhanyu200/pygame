@@ -38,3 +38,17 @@ append()、pop()、insert()、del、remove()、reverse、sort、sorted()
 `for key, value in favorite_numbers.items():
     print(name + "favorite number is " + str(number) + '.')`
 
+### 内置函数
+
+![image-20210615113211280](C:\Users\klci\AppData\Roaming\Typora\typora-user-images\image-20210615113211280.png)
+
+内置函数调用直接写函数名传递参数即可，方法的调用则需要先将类实例化，通过.调用方法
+
+#### 循环
+
+break
+
+continue  参考 7/counting.py 和 7-5.py
+
+
+
