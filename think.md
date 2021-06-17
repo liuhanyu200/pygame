@@ -54,5 +54,23 @@ continue  参考 7/counting.py 和 7-5.py
 
 使用函数默认值时，在形参列表中必须先列出没有默认值的形参，再列出有默认值的实参
 
+基于元组的可变参数
 
+`def make_pizza(size, *toppings):`
+
+传参方式：
+
+1、直接传
+
+`make_pizza(22, "cheese", "milk", "butter", "fish")`
+
+2、传元组
+
+`make_pizza(22, ("cheese", "milk", "butter", "fish"))`
+
+基于字典可变参数
+
+传参顺序：
+
+**必选参数、默认参数、可变参数和关键字参数**
 
