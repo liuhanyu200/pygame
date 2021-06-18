@@ -6,9 +6,10 @@ class Car:
         self.model = model
         self.year = year
         self.odometer_reading = 0
+        self.gas_tank = 42
 
     def get_descriptive_name(self) -> str:
-        long_name = self.year + ' ' + self.make + ' ' + self.model
+        long_name = str(self.year) + ' ' + self.make + ' ' + self.model
         return long_name
 
     def read_odometer(self):
@@ -19,6 +20,9 @@ class Car:
             self.odometer_reading = mileage
         else:
             print("You can't roll back an odometer!")
+
+    def fill_gas_tank(self):
+        print(self.gas_tank)
 
     def increment_odometer(self, miles):
         self.odometer_reading += miles
