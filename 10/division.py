@@ -7,7 +7,12 @@ except ZeroDivisionError:
 
 print("Give me two numbers, I'll divide them.")
 print("Print q to exit.")
-number1 = input("First number: ")
-number2 = input("Second number: ")
-
-
+while True:
+    number1 = input("First number: ")
+    if number1 == 'q':
+        break
+    number2 = input("Second number: ")
+    if number2 == 'q':
+        break
+    answer = int(number1) / int(number2)
+    print(answer)
