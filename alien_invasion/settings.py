@@ -1,3 +1,6 @@
+import random
+
+
 class Settings():
     def __init__(self):
         # 屏幕设置
